@@ -6,7 +6,7 @@ namespace TCNE_GITDEMO
     {
         public HelloModule()
         {
-            Get["/"] = _ => "Erlo!";
+            Get["/"] = _ => "Hello world!!";
         }
     }
 }
