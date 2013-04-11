@@ -7,6 +7,7 @@ namespace TCNE_GITDEMO
         public HelloModule()
         {
             Get["/"] = _ => "Erlo!";
-        }
+						Get["/canberger"] = _ => "Håkan is best!";
+				}
     }
 }
